@@ -1,0 +1,25 @@
+body {
+      margin: 0;
+}
+.container {
+      position: relative;
+}
+#slider {
+      display: flex;
+      overflow: hidden;
+}
+.photo {
+      width: 540px;
+      height: 360px;
+}
+.show__photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.788);
+      z-index: 10;
+}
